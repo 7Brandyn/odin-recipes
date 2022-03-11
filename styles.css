@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #e84118;
 }
 
 h1 {
@@ -21,13 +22,36 @@ p {
     color: darkblue;
 }
 
-.head {
+.png {
+
+}
+
+.header {
     text-align: center;
-    background-color: red;
     color: #fff;
 }
 
-.para-container {
-    margin: 16px;
-    color: black;
+.header-logo {
+    display: flex;
+    padding: 10px;
+}
+.search-box {
+    align-items: center;
+    background: #2f3640;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.textbox {
+    max-width: 100px;
+    margin: 10px;
+    text-align: center;
 }
