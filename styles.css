@@ -15,6 +15,29 @@ body {
     background: #222222;
 }
 
+button {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #e23333;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 5px #999;
+    margin: 10px 0px;
+}
+  
+button:hover {background-color: #a12222}
+  
+button:active {
+    background-color: #a12222;
+    box-shadow: 0 5px #666;
+    transform: translateY(5px);
+}
 
 a {
     color: #fff;
@@ -186,4 +209,7 @@ li:before {
     margin-right: 10px; 
 }
 
-#more {display: none;}
+#more {
+    display: none;
+}
+
