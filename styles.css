@@ -1,5 +1,5 @@
 /* 
--All photos in this website needs to be replaced.
+-Edit continent text.
 -Add a 3-striped menu w/ javascript additions
 -Make the code smaller and easier to edit after completion
 */
@@ -13,6 +13,27 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background: #222222;
+}
+
+
+a {
+    color: #fff;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    color: #fff;
+}
+  
+a:hover {
+    color: #e23333;
+}
+  
+a:active {
+    text-decoration: none;
 }
 
 h1 {
@@ -41,7 +62,7 @@ p {
     justify-content: space-between;
     text-align: center;
     padding: 10px;
-    background: #3f3f3f;
+    background: #a12222;
 }
 
 .header-logo {
@@ -59,7 +80,7 @@ p {
 
 .search-box {
     align-items: center;
-    background: #2f3640;
+    background: #700f0f;
     height: 40px;
     border-radius: 20px;
     padding: 10px;
@@ -80,16 +101,13 @@ p {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .textbox {
     max-width: 100px;
-    margin: 40px;
+    margin: 20px;
     text-align: center;
-}
-
-.text {
-
 }
 
 .banner {
@@ -106,25 +124,27 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px 20px;
+    padding-top: 40px;
     max-width: 600px;
     margin: auto;
 }
 
 .para-container {
+    text-align: center;
     padding: 40px 20px;
-    width: 1000px;
-    margin: auto;
+    max-width: 1000px;
+    margin: auto;;
 }
 
 .chef {
+    padding-top: 40px;
     color: #fff;
     display: flex;
     justify-content: center;
-    margin: 20px;
 }
 
 .recipe-container {
+    color: #ff0000;
 }
 
 .image-box {
