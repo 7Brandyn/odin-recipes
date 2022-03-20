@@ -137,14 +137,14 @@ p {
 }
 
 .chef {
-    padding-top: 40px;
+    padding: 40px;
     color: #fff;
     display: flex;
     justify-content: center;
 }
 
 .recipe-container {
-    color: #ff0000;
+    color: #ffffff;
 }
 
 .image-box {
@@ -159,3 +159,31 @@ p {
     margin: 0 20px;
     max-width: 760px;
 }
+
+.image-text-box > h2, p {
+    padding-bottom: 10px;
+}
+
+.image-text-box > p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.ingredients {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.ingredients > sub {
+    font-size: 16px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+li:before { 
+    content: '\1F95E'; 
+    margin-left: -20px; 
+    margin-right: 10px; 
+}
+
+#more {display: none;}
