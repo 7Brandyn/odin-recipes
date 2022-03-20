@@ -82,28 +82,32 @@ p {
 
 .textbox {
     max-width: 100px;
-    margin: 10px;
+    margin: 40px;
     text-align: center;
 }
 
-.section-2 {
-    background: #3f3f3f;
-    padding: 20px;
+.banner {
+    margin: auto;
+    color: #fff;
+    background-image:
+    linear-gradient(to top right, rgba(228,221,221, 0.50) 10%, rgba(0,0,0, 0.80 ) 60%),
+    url(./images/weird.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
-.paragraph-header-1 {
-    max-width: 1200px;
-    margin: auto;
+.welcome {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
-    color: #fff;
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: auto;
 }
 
 .para-container {
-    padding: 0 20px;
-    max-width: 1200px;
+    padding: 40px 20px;
+    width: 1000px;
     margin: auto;
 }
 
