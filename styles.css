@@ -27,15 +27,13 @@ button {
     background-color: #e23333;
     border: none;
     border-radius: 25px;
-    box-shadow: 0 5px #999;
     margin: 10px 0px;
 }
-  
+
 button:hover {background-color: #a12222}
   
 button:active {
     background-color: #a12222;
-    box-shadow: 0 5px #666;
     transform: translateY(5px);
 }
 
@@ -168,6 +166,7 @@ p {
 
 .recipe-container {
     color: #ffffff;
+    height: 600px;
 }
 
 .image-box {
@@ -203,13 +202,50 @@ p {
     margin-top: 20px;
 }
 
-li:before { 
-    content: '\1F95E'; 
-    margin-left: -20px; 
-    margin-right: 10px; 
+ul {
+    list-style: none;
 }
 
 #more {
     display: none;
 }
 
+.subscribe {
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    background-image:
+    linear-gradient(to top right, rgba(46, 43, 43, 0.767) 10%, rgba(175, 75, 75, 0.8) 60%),
+    url(./images/subscribe-image.gif);
+}
+
+.footer {
+    height: 200px;
+    background-color: #222222;
+    color: #fff;
+}
+
+#ceneqa {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+#id-sub {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px; 
+}
+
+#toes {
+    display: flex;
+    justify-content: center;
+}
+
+#toes > sub {
+    max-width: 600px;
+    padding: 10px 30px;
+}
